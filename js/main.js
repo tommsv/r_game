@@ -100,7 +100,7 @@ window.onload = function() {
     scoreText = this.add.text(
       config.width / 2,
       90,
-      'Tokens: ' + score,
+      'RED: ' + score,
       { fontSize: '18px', fill: '#fff' }
     ).setOrigin(0.5);
 
